@@ -1,0 +1,81 @@
+body{padding:0;margin:0;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+	#nav a, #nav a:visited{display:block;height:36px;line-height:36px;float:left;color:#fff;font-weight:bold;font-size:14px;text-decoration:none;margin:0;padding:0 10px 0 10px;}
+#container{position:absolute;top:136px;left:0;width:100%;padding:0;margin:0;}
+#content{width:800px;margin:0 auto;padding:20px 0 0 0;text-align:center;}
+#simple{padding:0;margin:0;clear:both;}
+	#simple h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+#signature{padding:0;margin:0;clear:both;}
+	#signature h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+#simple_manage_pre{padding:0;margin:0;clear:both;}
+	#simple_manage_pre h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+	#simple_manage h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+#simple_manage_group{padding:0;margin:0;clear:both;}
+	#simple_manage_group h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+#simple_add_new{padding:0;margin:0;clear:both;}
+	#simple_add_new h1{clear:both;font-size:14px;color:#fff;background-color:#000;margin:0;padding:5px 0 5px 0;}
+#footer{clear:both;text-align:center;font-size:10px;}
+.launch{display:block;text-decoration:none;font-weight:bold;color:#1B5F94;background:#efefef;text-align:center;padding:5px;margin:0;border:2px solid #cccccc;}
+.launch_small{display:block;width:150px;text-decoration:none;font-weight:bold;color:#1B5F94;background:#efefef;text-align:center;padding:5px;margin:0;border:2px solid #cccccc;}
+.launch_small2{display:block;width:165px;font-size:10px;text-decoration:none;font-weight:bold;color:#1B5F94;background:#efefef;text-align:center;padding:5px;margin:0;border:2px solid #cccccc;}
+.launch_small3{display:inline-block;font-size:10px;text-decoration:none;font-weight:bold;color:#1B5F94;background:#efefef;text-align:center;padding:5px;margin:0;border:2px solid #cccccc;}
+.launch_mgmt{display:block;width:35px;height:15px;text-decoration:none;font-size:11pt;color:#1B5F94;background:#efefef;text-align:center;padding:2px;margin:0;border:1px solid #cccccc;}
+.launch_mgmt2{display:block;width:58px;height:21px;text-decoration:none;font-size:11pt;color:#1B5F94;background:#efefef;text-align:center;margin:0;border:1px solid #cccccc;}
+.exit_button{font-size:14px;line-height:14px;right:2px;top:1px;position:absolute;color:#6fa5fd;font-weight:700;display:block;}
+	#simple .search_results{width:800px;border:1px solid black;cellpadding:1px;cellspacing:1px;}
+	#simple .search_results th{text-align:center;font-weight:bold;border-right:1px solid black;border-left:1px solid black;}
+	#simple .search_results td{text-align:center;border:1px solid black;}
+	#simple .search_results option.std {height:16px;width:100px;font-size:10px;}
+	#simple .search_results select.std {font-size:11px;width:100px;}
+table.mypc_news{width:750px;font-size:12px;padding:0;margin:0 0 15px 0;}
+table.mypc_news th a, table.pc_news th a:visited{color:#000;font-weight:bold;text-decoration:none;}
+table.mypc_news th a:hover{color:#000;text-decoration:underline;}
+table.mypc_news th{color:#000;text-align:left;font-size:21px;padding:0px;border-bottom:1px solid #aaa;}
+table.mypc_news td{background-color:#efefef;padding:10px;}
+table.mypc_news td.description{text-align:left;}
+table.mypc_news td.right{font-size:10px;text-align:right;background-color:#ddd;padding:5px;margin:0;}
+#backgroundPopup{display:none;position:absolute;height:100%;width:100%;top:0;left:0;background:#000000;border:1px solid #cecece;z-index:1;}
+.popup_character_info{display:none;position:absolute;height:650px;width:412px;background:#FFFFFF;border:2px solid #cecece;z-index:2;padding:12px;font-size:13px;}
+#SigPosition{display:block;float:right;width:635px;align:center;}
+#SigPosition li {list-style:none;padding:0px;float:left;width:46px;height:55px;text-align:center;}
+	#SigPosition ul {margin-left:0;padding-left:0;text-indent:0;}
+#jsddm{position:absolute;text-indent:0;display:block-inline;margin:0;padding:0;padding-left:34px;}
+	#jsddm li{display:block-inline;height:-10px;width:15px;list-style:none;font:10px Tahoma, Arial;}
+	#jsddm li a{position:relative;display:block;padding:0px;text-decoration:none;width:15px;color:#000000;white-space:nowrap;}
+	#jsddm li ul{margin:0;padding:0;position:absolute;visibility:hidden;border:1px solid black;}
+		#jsddm li ul li{float:none;display:inline;}
+		#jsddm li ul li a{width:35px;background:#ffffff;}
+		#jsddm li ul li a:hover{background:#999999;}
+#character_profile_template{background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_template.png);width:254px;height:512px;}
+#character_defaults{float:left;margin-top:30px;margin-left:4px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_header.png);width:245px;height:55px;}
+	#character_defaults .name{float:left;align:center;width:245px;padding-top:2px;color:white;font-family:Verdana;font-size:12pt;}
+	#character_defaults .job{float:left;align:center;width:245px;color:#c9a876;font-family:Verdana;font-size:11pt;}
+	#character_defaults .level{float:left;align:center;width:245px;color:#eddca7;font-weight:bold;font-family:Verdana;font-size:8pt;}
+#character_base_stats{float:right;margin-right:6px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_base.png);width:120px;height:135px;}
+#character_base_stats_n{float:right;margin-right:6px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_base_n.png);width:120px;height:135px;}
+	#character_base_stats .str{float:right;margin-top:23px;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_base_stats .agi{clear:both;float:right;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_base_stats .con{clear:both;float:right;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_base_stats .dex{clear:both;float:right;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_base_stats .int{clear:both;float:right;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_base_stats .cha{clear:both;float:right;margin-right:30px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+#character_atk_stats{float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_atk.png);width:120px;height:135px;}
+#character_atk_stats_n{float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_atk_n.png);width:120px;height:135px;}
+	#character_atk_stats .ar{float:right;margin-top:29px;margin-right:12px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_atk_stats .atk{clear:both;float:right;margin-right:12px;padding-top:3px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_atk_stats .acc{clear:both;float:right;margin-right:12px;padding-top:3px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_atk_stats .speed{clear:both;float:right;margin-right:12px;padding-top:4px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_atk_stats .critical{clear:both;float:right;margin-right:12px;padding-top:4px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+#character_def_stats{float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_def.png);width:120px;height:135px;}
+#character_def_stats_n{float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_def_n.png);width:120px;height:135px;}
+	#character_def_stats .dr{float:right;width:30px;margin-top:28px;margin-right:12px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_def_stats .def{clear:both;float:right;width:30px;margin-right:12px;padding-top:4px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_def_stats .evasion{clear:both;float:right;width:30px;margin-right:12px;padding-top:5px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_def_stats .block{clear:both;float:right;width:30px;margin-right:12px;padding-top:3px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_def_stats .absorb{clear:both;float:right;width:30px;margin-right:12px;padding-top:4px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+#character_res_stats{clear:both;float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_res.png);width:120px;height:135px;}
+#character_res_stats_n{clear:both;float:left;margin-left:5px;margin-top:5px;background-image:url(http://my.portcoimbra.com/img/stat_viewer/stat_viewer_res_n.png);width:120px;height:135px;}
+	#character_res_stats .fire{float:right;width:30px;margin-top:29px;margin-right:12px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_res_stats .ice{clear:both;float:right;width:30px;margin-right:12px;padding-top:3px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_res_stats .lightning{clear:both;float:right;width:30px;margin-right:12px;padding-top:5px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_res_stats .sonic{clear:both;float:right;width:30px;margin-right:12px;padding-top:3px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}
+	#character_res_stats .mind{clear:both;float:right;width:30px;margin-right:12px;padding-top:4px;color:white;font-weight:bold;font-family:Verdana;font-size:10pt;}

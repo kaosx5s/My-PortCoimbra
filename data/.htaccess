@@ -1,0 +1,11 @@
+CheckSpelling Off
+Options -MultiViews
+Options +FollowSymLinks
+Options -Indexes
+
+ErrorDocument 404 /data/500.php
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^(/[a-zA-Z0-9_/]{3,16}/)(\(#\?\))([0-9]*)(\(##\))(.*)(\(\?#\))(.*)$
+RewriteRule ^([^\/.]+).jpg$ /data/wat.php?info=$1 [NC,L]
